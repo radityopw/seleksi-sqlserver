@@ -1,0 +1,45 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[_peserta_diterima_final] (Table)
+       [dbo].[_peserta_diterima_matic] (Table)
+       [dbo].[penempatan] (Table)
+       [dbo].[peserta] (Table)
+       [dbo].[status] (Table)
+       [dbo].[DF_peserta_diterima_final_kode_status] (Default Constraint)
+       [dbo].[DF_peserta_diterima_matic_kode_status] (Default Constraint)
+       [dbo].[DF_penempatan_isi] (Default Constraint)
+       [dbo].[DF_penempatan_nilai_minimum] (Default Constraint)
+       [dbo].[DF_penempatan_sisa_peminat] (Default Constraint)
+       [dbo].[DF_peserta_kode_status] (Default Constraint)
+       [dbo].[FK_peserta_diterima_final_penempatan] (Foreign Key)
+       [dbo].[FK_peserta_diterima_final_status] (Foreign Key)
+       [dbo].[FK_peserta_diterima_matic_penempatan] (Foreign Key)
+       [dbo].[FK_peserta_diterima_matic_status] (Foreign Key)
+       [dbo].[FK_peserta_penempatan] (Foreign Key)
+       [dbo].[FK_peserta_status] (Foreign Key)
+       [dbo].[CK_peserta_diterima_final_nilai] (Check Constraint)
+       [dbo].[CK_peserta_diterima_final_pil_ke] (Check Constraint)
+       [dbo].[CK_peserta_diterima_matic_nilai] (Check Constraint)
+       [dbo].[CK_peserta_diterima_matic_pil_ke] (Check Constraint)
+       [dbo].[CK_penempatan_daya_tampung] (Check Constraint)
+       [dbo].[CK_penempatan_dt_isi] (Check Constraint)
+       [dbo].[CK_penempatan_isi] (Check Constraint)
+       [dbo].[CK_peserta_nilai] (Check Constraint)
+       [dbo].[CK_peserta_pil_ke] (Check Constraint)
+       [dbo].[peserta_diterima] (View)
+       [dbo].[peserta_diterima].[PK] (Index)
+       [dbo].[_hitung_min_nilai] (Procedure)
+       [dbo].[_hitung_sisa_peminat] (Procedure)
+       [dbo].[usp_seleksi] (Procedure)
+
+** Supporting actions

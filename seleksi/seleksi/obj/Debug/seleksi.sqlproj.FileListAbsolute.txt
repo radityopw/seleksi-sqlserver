@@ -1,0 +1,6 @@
+D:\Workspaces\seleksi-sqlserver\seleksi\seleksi\bin\Debug\seleksi.dacpac
+D:\Workspaces\seleksi-sqlserver\seleksi\seleksi\bin\Debug\seleksi.dll
+D:\Workspaces\seleksi-sqlserver\seleksi\seleksi\bin\Debug\seleksi.pdb
+D:\Workspaces\seleksi-sqlserver\seleksi\seleksi\obj\Debug\seleksi.sqlprojAssemblyReference.cache
+D:\Workspaces\seleksi-sqlserver\seleksi\seleksi\obj\Debug\seleksi.dll
+D:\Workspaces\seleksi-sqlserver\seleksi\seleksi\obj\Debug\seleksi.pdb

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "seleksi", "seleksi\seleksi.sqlproj", "{5E9989A3-2AC1-411E-83FF-8F2EC5F631DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E9989A3-2AC1-411E-83FF-8F2EC5F631DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9989A3-2AC1-411E-83FF-8F2EC5F631DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9989A3-2AC1-411E-83FF-8F2EC5F631DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5E9989A3-2AC1-411E-83FF-8F2EC5F631DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9989A3-2AC1-411E-83FF-8F2EC5F631DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9989A3-2AC1-411E-83FF-8F2EC5F631DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5634050D-F0A2-4795-B896-ACBF78B5C14A}
+	EndGlobalSection
+EndGlobal
