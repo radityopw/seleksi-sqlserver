@@ -60,4 +60,14 @@ BEGIN
 		FROM penempatan;
 
 	END
+
+	-- hitung yang diterima per penempatan
+	UPDATE a 
+	SET a.isi = b.jml
+	FROM penempatan a 
+	JOIN (
+		SELECT kode_penempatan,count(*) as jml
+		FROM peserta_diterima
+		GROUP by kode_penempatan
+	) b ON a.kode_penempatan = b.kode_penempatan
 END

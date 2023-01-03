@@ -9,6 +9,9 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+DELETE FROM [dbo].[status];
+
 INSERT [dbo].[status] ([kode_status], [nama]) VALUES (0, N'BELUM DIPROSES')
 GO
 INSERT [dbo].[status] ([kode_status], [nama]) VALUES (1, N'DITERIMA')
